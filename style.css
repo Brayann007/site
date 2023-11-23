@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: absolute;
+    background-color: #ffcc00;
+    color: black;
+    text-align: center;
+}
+
+header{
+    background-color: lightblue;
+    position: sticky;
+    background-image: url(galinha-pintadinha-e-familia-360x175.png);
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 100%;
+    
+}
+
+#texto{
+    position: relative;
+    top: 100px;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+hr{
+    position: relative;
+    border-color: black;
+}
